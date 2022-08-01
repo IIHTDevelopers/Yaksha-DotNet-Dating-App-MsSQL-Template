@@ -11,7 +11,6 @@ using System.Threading.Tasks;
 
 namespace DatingApplication.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
     {
@@ -34,6 +33,7 @@ namespace DatingApplication.Controllers
         //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Register([FromBody] UserViewModel model)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
 
         }
@@ -47,6 +47,7 @@ namespace DatingApplication.Controllers
         [Route("users")]
         public async Task<IActionResult> UpdateUser([FromBody] UserViewModel model)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
@@ -60,6 +61,7 @@ namespace DatingApplication.Controllers
         [Route("users/{userId}")]
         public async Task<IActionResult> DeleteUser(long userId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
@@ -72,6 +74,7 @@ namespace DatingApplication.Controllers
         [Route("users/{userId}")]
         public async Task<IActionResult> GetUserById(long userId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
@@ -83,6 +86,7 @@ namespace DatingApplication.Controllers
         [Route("users")]
         public async Task<IEnumerable<User>> ListAllUsers()
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 

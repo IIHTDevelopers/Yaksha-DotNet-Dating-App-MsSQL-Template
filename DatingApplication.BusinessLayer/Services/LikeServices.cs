@@ -19,16 +19,19 @@ namespace DatingApplication.BusinessLayer.Services
 
         public async Task<Like> FindLikeById(long userId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         public async Task<IEnumerable<Like>> ListAllLikesByUserId(long likeId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         public async Task<Like> Register(Like like)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
     }

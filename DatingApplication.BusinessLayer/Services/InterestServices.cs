@@ -20,21 +20,25 @@ namespace DatingApplication.BusinessLayer.Services
 
         public async Task<Interests> FindInterestById(long interestId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         public async Task<IEnumerable<Interests>> FindInterestByUserId(long userId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         public async Task<Interests> Register(Interests interests)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         public async Task<Interests> UpdateInterest(InterestViewModel model)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
     }

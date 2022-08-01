@@ -18,17 +18,19 @@ namespace DatingApplication.BusinessLayer.Services.Repository
 
         public async Task<Dislike> FindDislikeById(long userId)
         {
-
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         public async Task<IEnumerable<Dislike>> ListAllDislikesByUserId(long userId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         public async Task<Dislike> Register(Dislike dislike)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
     }

@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 
 namespace DatingApplication.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
     public class MatchController : ControllerBase
     {
@@ -29,6 +28,7 @@ namespace DatingApplication.Controllers
         [Route("match/{userId}")]
         public async Task<IActionResult> GetMatchByUserId(long userId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
@@ -41,6 +41,7 @@ namespace DatingApplication.Controllers
         [Route("match/{userId}")]
         public async Task<IActionResult> GetMatchByFilter(long userId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
     }

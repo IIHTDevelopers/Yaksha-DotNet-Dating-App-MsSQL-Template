@@ -11,7 +11,6 @@ using System.Threading.Tasks;
 
 namespace DatingApplication.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
     public class LikeController : ControllerBase
     {
@@ -34,6 +33,7 @@ namespace DatingApplication.Controllers
         //[ValidateAntiForgeryToken]
         public async Task<IActionResult> Register([FromBody] LikeViewModel model)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
@@ -46,6 +46,7 @@ namespace DatingApplication.Controllers
         [Route("likes/{userId}")]
         public async Task<IActionResult> GetLikesByUserId(long userId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
     }

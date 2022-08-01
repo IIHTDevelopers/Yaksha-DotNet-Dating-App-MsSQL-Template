@@ -20,21 +20,25 @@ namespace DatingApplication.BusinessLayer.Services
 
         public async Task<User> FindUserById(long userId)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         public async Task<IEnumerable<User>> ListAllUsers()
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         public async Task<User> Register(User user)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
 
         public async Task<User> UpdateUser(UserViewModel model)
         {
+            //Write Your Code Here
             throw new NotImplementedException();
         }
     }
