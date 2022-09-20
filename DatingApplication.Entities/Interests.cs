@@ -10,8 +10,6 @@ namespace DatingApplication.Entities
 {
     public class Interests
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long InterestId { get; set; }
         public string InterestedIn { get; set; }
         public string NotInterestedIn { get; set; }

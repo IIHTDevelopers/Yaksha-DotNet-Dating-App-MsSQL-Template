@@ -10,8 +10,6 @@ namespace DatingApplication.Entities
 {
     public class Like
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long LikeId { get; set; }
         public long UserId { get; set; }
         public bool IsDeleted { get; set; }

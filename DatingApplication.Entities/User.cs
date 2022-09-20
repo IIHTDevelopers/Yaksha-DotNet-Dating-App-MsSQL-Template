@@ -10,8 +10,6 @@ namespace DatingApplication.Entities
 {
     public class User
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long UserId { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }

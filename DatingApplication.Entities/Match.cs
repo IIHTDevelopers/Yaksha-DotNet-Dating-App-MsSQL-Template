@@ -10,8 +10,6 @@ namespace DatingApplication.Entities
 {
     public class Match
     {
-        [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long MatchId { get; set; }
         public long UserId { get; set; }
         public bool IsDeleted { get; set; }

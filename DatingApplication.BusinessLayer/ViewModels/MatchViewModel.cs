@@ -10,11 +10,8 @@ namespace DatingApplication.BusinessLayer.ViewModels
 {
     public class MatchViewModel
     {
-        [Key]
         public long MatchId { get; set; }
-        [Required]
         public long UserId { get; set; }
-        [DefaultValue(false)]
         public bool IsDeleted { get; set; }
     }
 }

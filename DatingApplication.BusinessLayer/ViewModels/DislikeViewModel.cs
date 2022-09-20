@@ -10,12 +10,10 @@ namespace DatingApplication.BusinessLayer.ViewModels
 {
     public class DislikeViewModel
     {
-        [Key]
         public long DislikeId { get; set; }
 
-        [Required]
         public long UserId { get; set; }
-        [DefaultValue(false)]
+      
         public bool IsDeleted { get; set; }
     }
 }
